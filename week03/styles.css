@@ -1,0 +1,71 @@
+/* Branding Colors - from coolors.co palette:
+https://coolors.co/505033-264969-cfcfb4-b4cde4
+*/
+:root {
+    --dark-olive: #505033;
+    --deep-blue: #264969;
+    --cream: #cfcfb4;
+    --sky-blue: #b4cde4;
+
+    --heading-font: "Georgia", serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+    margin: 0;
+    padding: 0;
+    background-color: var(--cream);
+    color: var(--dark-olive);
+}
+
+header {
+    background-color: var(--deep-blue);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+.hero {
+    background-color: var(--sky-blue);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-family: var(--heading-font);
+    /*background-image: url(/images/raftsmoothly.jpg);*/
+}
+
+.features {
+    margin-top: 2rem;
+}
+
+.features h2 {
+    font-family: var(--heading-font);
+    color: var(--deep-blue);
+}
+
+footer {
+    background-color: var(--dark-olive);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
